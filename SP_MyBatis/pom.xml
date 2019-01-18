@@ -121,7 +121,7 @@
           <version>1.8.10</version>
       </dependency>
       <dependency>
-          <groupId>javax.servlet.jsp.jstl</groupId>
+          <groupId>jstl</groupId>
           <artifactId>jstl</artifactId>
           <version>1.2</version>
       </dependency>
@@ -175,6 +175,12 @@
           <groupId>commons-logging</groupId>
           <artifactId>commons-logging</artifactId>
           <version>1.1.1</version>
+      </dependency>
+      <dependency>
+          <groupId>org.junit.jupiter</groupId>
+          <artifactId>junit-jupiter-api</artifactId>
+          <version>RELEASE</version>
+          <scope>compile</scope>
       </dependency>
   </dependencies>
 

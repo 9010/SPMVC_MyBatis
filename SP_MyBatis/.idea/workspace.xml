@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3d22284-7d76-4cbd-885f-1519d8c47ed1" name="Default Changelist" comment="" />
+    <list default="true" id="e3d22284-7d76-4cbd-885f-1519d8c47ed1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/pages/test/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/self/db/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/self/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/com/self/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/springmvc-action.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/com/self/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/com/self/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,23 +55,75 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="777962414">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+          <entry key="jsp" value="1" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+          <entry key="JSP" value="1" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1072" />
+          <entry key="jsp" value="163" />
+          <entry key="xml" value="1231" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1072" />
+          <entry key="JSP" value="163" />
+          <entry key="XML" value="1231" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+            <state relative-caret-position="208">
+              <caret line="40" column="11" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/self/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/self/db/DBConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
               <folding>
-                <element signature="e#836#852#0" expanded="true" />
-                <element signature="e#894#907#0" expanded="true" />
-                <element signature="e#946#964#0" expanded="true" />
-                <element signature="e#1007#1025#0" expanded="true" />
-                <element signature="e#1108#1134#0" expanded="true" />
-                <element signature="e#1208#1234#0" expanded="true" />
-                <element signature="e#1310#1340#0" expanded="true" />
-                <element signature="e#1436#1467#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,16 +135,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc-action.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/self/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/pages/test/test.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/self/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/self/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/com/self/db/DBConnection.java" />
         <option value="$PROJECT_DIR$/src/main/resources/beans.xml" />
       </list>
     </option>
@@ -113,6 +185,11 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="SP_MyBatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="SP_MyBatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -120,8 +197,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-14" />
     <option name="y" value="-14" />
-    <option name="width" value="1943" />
-    <option name="height" value="1057" />
+    <option name="width" value="1944" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -137,6 +214,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="true" />
@@ -144,8 +222,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -177,6 +255,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SP_MyBatis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SP_MyBatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -195,9 +281,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546931172413" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547797464737" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
@@ -212,6 +302,48 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.DBConnection">
+    <configuration name="DBConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SP_MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.self.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.self.db" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.self.db.DBConnection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBConnection.TestSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SP_MyBatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.self.db.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.self.db" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.self.db.DBConnection" />
+      <option name="METHOD_NAME" value="TestSelect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.DBConnection" />
+      <item itemvalue="JUnit.DBConnection.TestSelect" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DBConnection" />
+        <item itemvalue="JUnit.DBConnection.TestSelect" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -223,48 +355,71 @@
       <option name="presentableId" value="Default" />
       <updated>1546925474566</updated>
       <workItem from="1546925480103" duration="5353000" />
+      <workItem from="1547185224553" duration="731000" />
+      <workItem from="1547778581298" duration="1346000" />
+      <workItem from="1547791642176" duration="5754000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="DBConnection - 2019.01.18 at 15h 08m 59s.xml">
+      <configuration name="DBConnection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DBConnection_TestSelect - 2019.01.18 at 15h 35m 30s.xml">
+      <configuration name="DBConnection.TestSelect" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DBConnection - 2019.01.18 at 15h 38m 55s.xml">
+      <configuration name="DBConnection" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5353000" />
+    <option name="totallyTimeSpent" value="13184000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954017" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1814059" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" weight="0.32950193" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32950193" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49800798" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="JSF" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="CDI" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" weight="0.21213979" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32934928" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32934928" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32934928" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32934928" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="JSF" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.21164021" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="CDI" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,30 +429,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/self/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-755">
-          <caret line="170" column="35" selection-start-line="170" selection-start-column="35" selection-end-line="170" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/self/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/self/App.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -312,22 +444,171 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc-action.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="11" column="76" lean-forward="true" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+        <state relative-caret-position="857">
+          <caret line="33" column="57" selection-start-line="33" selection-start-column="57" selection-end-line="33" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/self/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="72" lean-forward="true" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
           <folding>
-            <element signature="e#836#852#0" expanded="true" />
-            <element signature="e#894#907#0" expanded="true" />
-            <element signature="e#946#964#0" expanded="true" />
-            <element signature="e#1007#1025#0" expanded="true" />
-            <element signature="e#1108#1134#0" expanded="true" />
-            <element signature="e#1208#1234#0" expanded="true" />
-            <element signature="e#1310#1340#0" expanded="true" />
-            <element signature="e#1436#1467#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/pages/test/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="123" column="19" selection-start-line="123" selection-start-column="19" selection-end-line="123" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/self/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-546">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="32" lean-forward="true" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/self/db/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="40" column="11" lean-forward="true" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/com/self/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SP_MyBatis</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
